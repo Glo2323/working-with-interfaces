@@ -38,6 +38,6 @@ public class Person implements Comparable<Person> {
 
     @Override
     public int compareTo(Person o) {
-        return 0;
+        return this.getLastName().compareTo(o.getLastName()) ;
     }
 }
